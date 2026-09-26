@@ -50,7 +50,7 @@ int main(void) {
     LCD_Print(&lcd, "Readings");
     __delay_ms(2000);
     
-    PWM_TriggerCompareValueSet(PWM_GENERATOR_3, 2000);
+    PWM_TriggerCompareValueSet(PWM_GENERATOR_3, PG3DC);
     
     while (1) {
         ADC1_SoftwareTriggerEnable();
@@ -77,13 +77,22 @@ int main(void) {
 
         LCD_Clear(&lcd);
         LCD_SetCursor(&lcd, 0, 0);
-        sprintf(buffer, "Vi:%.2f Vo:%.2f", vin, vout);
+        sprintf(buffer, "Vi:%.2f", vin);
         LCD_Print(&lcd, buffer);
-
+        
         LCD_SetCursor(&lcd, 0, 1);
-        sprintf(buffer, "Ii:%.2f Io:%.2f", Iin, Iout);
+        sprintf(buffer, "Ii:%.2f", Iin);
         LCD_Print(&lcd, buffer);
-
+        __delay_ms(1000);
+        
+        LCD_Clear(&lcd);
+        LCD_SetCursor(&lcd, 0, 0);
+        sprintf(buffer, "Vo:%.2f", vout);
+        LCD_Print(&lcd, buffer);
+        
+        LCD_SetCursor(&lcd, 0, 1);
+        sprintf(buffer, "Io:%.2f", Iout);
+        LCD_Print(&lcd, buffer);
         __delay_ms(1000);
     }
 }
