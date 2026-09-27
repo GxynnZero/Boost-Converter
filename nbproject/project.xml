@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>Boost converter v2</name>
+            <name>Boost_converter_V0A</name>
             <creation-uuid>9b1570c7-8562-4148-a75d-d1cb39744882</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>

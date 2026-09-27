@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "../../../mcc_generated_files/system/system.h"
+#include "../../mcc_generated_files/system/system.h"
 #include "../../mcc_generated_files/i2c_host/i2c1.h"
 #include "lcd_I2C.h"
 

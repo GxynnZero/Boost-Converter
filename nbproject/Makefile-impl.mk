@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Boost converter v2.X
+PROJECTNAME=Boost_converter_V0A.X
 
 # Active Configuration
 DEFAULTCONF=default

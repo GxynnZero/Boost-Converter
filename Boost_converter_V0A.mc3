@@ -1,4 +1,4 @@
-<config configName="default" projectName="Boost_converter_v2" configVersion="1.3" device="dsPIC33CK64MC105" deviceLibraryClass="com.microchip.mcc.melody.Library" coreVersion="5.9.0" spaHostVersion="1.3.0">
+<config configName="default" projectName="Boost_converter" configVersion="1.3" device="dsPIC33CK64MC105" deviceLibraryClass="com.microchip.mcc.melody.Library" coreVersion="5.9.0" spaHostVersion="1.3.0">
    <usedPackages class="java.util.ArrayList">
       <package packageName="@mchp-mcc/adc-multicore-driver" version="2.1.5" contentType="MELODY">
          <modules class="java.util.ArrayList"/>

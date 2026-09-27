@@ -60,7 +60,7 @@
                    displayName="Important Files"
                    projectFiles="true">
       <itemPath>Makefile</itemPath>
-      <itemPath>Boost_converter_v2.mc3</itemPath>
+      <itemPath>Boost_converter_V0A.mc3</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"

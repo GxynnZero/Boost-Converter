@@ -1,1 +1,0 @@
- -c -mcpu=$(MP_PROCESSOR_OPTION)  -omf=elf -DXPRJ_default=$(CND_CONF)    -Wa,-g,--no-relax$(MP_EXTRA_AS_POST)  -mdfp="${DFP_DIR}/xc16"C:\Users\gagan\MPLABXProjects\Boost converter v2.X\mcc_generated_files\system\src\dmt_asm.s
